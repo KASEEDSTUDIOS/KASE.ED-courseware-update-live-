@@ -45,7 +45,21 @@ Plant cells have a rigid outer surface, are autotrophs (makes their food), has o
     <h3>What are the similarities between animal cells and plant cells?</h3>
     <h3>Name two types of eukaryotic cells</h3>
     <h3>Name five types of prokaryotic cells</h3>
-
+<p>Upload your answers here and verify the answers by clicking on the check button</p>
+<p>File Type : Image</p>
+<h1>Upload Answers</h1>
+      <input type="file" accept="image/*" onchange="loadFile(event)">
+      <img id="output"/>
+      <script>
+        var loadFile = function(event) {
+          var reader = new FileReader();
+          reader.onload = function(){
+            var output = document.getElementById('output');
+            output.src = reader.result;
+          };
+          reader.readAsDataURL(event.target.files[0]);
+        };
+      </script>
     <button class = "gfg" type="submit">
         Next Lesson
     </button> 
