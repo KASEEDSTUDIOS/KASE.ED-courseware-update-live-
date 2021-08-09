@@ -4,7 +4,7 @@ function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 var password = document.getElementById("password").value;
-if ( username == "sidharth.parmar" && password == "sidparmar8"||username == "kush.kundalia" && password == "rockeeee1"||username == "Tirth.khunt" && password == "tirth@kaseednitro"){
+if ( username == "sidharth.parmar" && password == "sidparmar8"||username == "kush.kundalia" && password == "rockeeee1"||username == "Tirth.khunt" && password == "tirth@kaseednitro"||username == "dummy.kase" && password == "aanimeww"){
 alert ("You have logged in successfully");
 window.location = "kased_studios.html"; // Redirecting to other page.
 return false;
